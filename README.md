@@ -19,6 +19,6 @@ colorscheme medic_chalk
 
 The table below contains a subset of VividChalks’s palette. You can use a color picker or copy/paste these values:
 
-![Table of values](https://gfycat.com/euphoricfrequenthornet)
+![Picture of Colors](https://thumbs.gfycat.com/EuphoricFrequentHornet-size_restricted.gif)
 
 The table above is from [Romainl's Apprentice](https://github.com/romainl/Apprentice)
