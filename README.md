@@ -14,7 +14,7 @@ call plug#begin()
   Plug 'ParamagicDev/vim-medic-chalk'
 call plug#end()
 
-colorscheme medic-chalk
+colorscheme medic_chalk
 ```
 
 The table below contains a subset of VividChalks’s palette. You can use a color picker or copy/paste these values:
