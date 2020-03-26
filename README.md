@@ -25,7 +25,7 @@ Below is a sample for `~/.Xresources` also taken from RomainL
     *.foreground: #FFFFFF
     *.background: #000000
     *.color0:     #000000
-    *.color8:     #808080
+    *.color8:     #333333
     *.color1:     #FFA500
     *.color9:     #FF6600
     *.color2:     #66FF00
@@ -39,7 +39,7 @@ Below is a sample for `~/.Xresources` also taken from RomainL
     *.color6:     #88B5C3
     *.color14:    #AABBEE
     *.color7:     #FFFFFF
-    *.color15:    #A9A9A9
+    *.color15:    #808080
 
 Screenshots to come later
 
@@ -47,7 +47,7 @@ Screenshots to come later
 
 There aren't many differences,
 
- I changed the way the auto completion menu is handled. 
+I changed the way the auto completion menu is handled.
 
 I also changed the fact that the current cursor row was underlined.
 
@@ -64,6 +64,3 @@ Added a color palette to the README for easier porting of the colorscheme.
 
 Overall, it's pretty much the same just with a few adjustments. TPope did
 All the heavy lifting on this one.
-
-
-
