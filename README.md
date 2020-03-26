@@ -45,16 +45,25 @@ Screenshots to come later
 
 ## Differences from VividChalk
 
-There aren't many differences, I changed the way 
-the auto completion menu is handled. I also changed 
-the fact that the current cursor row was underlined. I also
-changed how splits appears, colorcolumn appears, and
+There aren't many differences,
+
+ I changed the way the auto completion menu is handled. 
+
+I also changed the fact that the current cursor row was underlined.
+
+I also changed how splits appears, colorcolumn appears, and
 how matched parentheses appear.
 
 Altered fallback values for GUI StatusLines and Normal highlighting.
+
 Altered the way non-current status line is highlighted.
+
 Added a highlight link for NERDTree (Sorry TPope, I know you like NETRW w/ vinegar)
+
 Added a color palette to the README for easier porting of the colorscheme.
+
+Overall, it's pretty much the same just with a few adjustments. TPope did
+All the heavy lifting on this one.
 
 
 
