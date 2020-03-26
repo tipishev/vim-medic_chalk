@@ -90,8 +90,6 @@ if &background == "light" || has("gui_running")
 else
     hi Normal guibg=Black ctermbg=NONE
 endif
-highlight StatusLine    guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=White  cterm=bold
-highlight StatusLineNC  guifg=#444444 guibg=#aaaaaa gui=none ctermfg=Black ctermbg=Grey   cterm=none
 "if &t_Co == 256
     "highlight StatusLine ctermbg=117
 "else
@@ -101,9 +99,6 @@ highlight StatusLineNC  guifg=#444444 guibg=#aaaaaa gui=none ctermfg=Black cterm
 highlight Ignore        ctermfg=Black
 highlight WildMenu      guifg=Black   guibg=#ffff00 gui=bold ctermfg=Black ctermbg=Yellow cterm=bold
 highlight Cursor        guifg=Black guibg=White ctermfg=Black ctermbg=White
-call s:hibg("ColorColumn","#333333","DarkGrey",81)
-call s:hibg("CursorLine","#333333","DarkGrey",81)
-call s:hibg("CursorColumn","#333333","DarkGrey",81)
 highlight NonText       guifg=#404040 ctermfg=8
 highlight SpecialKey    guifg=#404040 ctermfg=8
 highlight Directory     none
@@ -121,7 +116,6 @@ highlight Title         guifg=Magenta ctermfg=Magenta
 highlight VisualNOS     gui=none cterm=none
 call s:hibg("Visual"    ,"#555577","LightBlue",83)
 call s:hibg("VisualNOS" ,"#444444","DarkBlue",81)
-call s:hibg("MatchParen","#1100AA","DarkBlue",18)
 highlight WarningMsg    guifg=Red ctermfg=Red
 highlight Error         ctermbg=DarkRed
 highlight SpellBad      ctermbg=DarkRed
@@ -140,12 +134,6 @@ highlight DiffDelete    ctermfg=12 ctermbg=6 gui=bold guifg=Blue guibg=DarkCyan
 highlight DiffText      ctermbg=DarkRed
 highlight DiffText      cterm=bold ctermbg=9 gui=bold guibg=Red
 
-highlight Pmenu         guifg=White ctermfg=White gui=bold cterm=bold
-highlight PmenuSel      guifg=White ctermfg=White gui=bold cterm=bold
-call s:hibg("Pmenu"     ,"#000099","Blue",18)
-call s:hibg("PmenuSel"  ,"#5555ff","DarkCyan",39)
-highlight PmenuSbar     guibg=Grey ctermbg=Grey
-highlight PmenuThumb    guibg=White ctermbg=White
 highlight TabLine       gui=underline cterm=underline
 call s:hifg("TabLine"   ,"#bbbbbb","LightGrey",85)
 call s:hibg("TabLine"   ,"#333333","DarkGrey",80)
@@ -176,18 +164,19 @@ call s:hifg("rubyMethod"     ,"#DDE93D","Yellow",77) " 191
 
 " My modifications
 
-highlight StatusLine   guibg=#aabbee guifg=#000000 ctermbg=15 ctermfg=0 cterm=NONE gui=NONE
-highlight StatusLineNC guibg=#aabbee guifg=#000000 ctermbg=15 ctermfg=0 cterm=inverse gui=inverse
+highlight StatusLine   guibg=#aabbee guifg=#000000 ctermbg=14 ctermfg=0 cterm=NONE gui=NONE
+highlight StatusLineNC guibg=#aabbee guifg=#000000 ctermbg=14 ctermfg=0 cterm=inverse gui=inverse
 
-hi MatchParen ctermbg=8 ctermfg=2 cterm=NONE guibg=#808080 guifg=#66FF00 gui=NONE
+highlight MatchParen ctermbg=8 ctermfg=2 cterm=NONE guibg=#808080 guifg=#66FF00 gui=NONE
 highlight CursorLine cterm=NONE gui=NONE
-highlight VertSplit ctermbg=8 ctermfg=8
-highlight ColorColumn ctermbg=0
-highlight CursorColumn ctermbg=0
+highlight VertSplit ctermbg=8 ctermfg=8 guibg=#808080 guifg=#808080
+highlight ColorColumn ctermbg=0 guibg=#000000
+highlight CursorColumn ctermbg=0 guibg=#000000
 highlight SignColumn ctermbg=NONE guibg=NONE
-highlight link NERDTreeDir Constant
 
 highlight PmenuSel   ctermbg=13 ctermfg=00 guibg=#AA1BF2 guifg=#A9A9A9 gui=bold cterm=bold
 highlight Pmenu      ctermbg=00 ctermfg=15 guifg=#A9A9A9 guibg=#000000 gui=bold cterm=bold
 highlight PmenuSbar  ctermbg=07 guibg=#FFFFFF
 highlight PmenuThumb ctermbg=15 guibg=#A9A9A9
+
+highlight link NERDTreeDir Constant
