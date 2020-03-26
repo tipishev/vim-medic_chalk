@@ -15,12 +15,7 @@ call plug#end()
 colorscheme medic_chalk
 ```
 
-The table below contains a subset of VividChalks’s palette.
-It was taken from [Romainl's Apprentice](https://github.com/romainl/Apprentice) Readme
-
-![Picture of Colors](https://thumbs.gfycat.com/EuphoricFrequentHornet-size_restricted.gif)
-
-Below is a sample for `~/.Xresources` also taken from RomainL
+Below is a sample for `~/.Xresources` taken from RomainL
 
     *.foreground: #FFFFFF
     *.background: #000000
