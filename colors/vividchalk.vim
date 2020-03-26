@@ -173,3 +173,21 @@ call s:hifg("Type"           ,"#AAAA77","Grey",57) " 101
 call s:hifg("Special"        ,"#33AA00","DarkGreen",24) " 7
 call s:hifg("Regexp"         ,"#44B4CC","DarkCyan",21) " 74
 call s:hifg("rubyMethod"     ,"#DDE93D","Yellow",77) " 191
+
+" My modifications
+
+highlight StatusLine   guibg=#aabbee guifg=#000000 ctermbg=15 ctermfg=0 cterm=NONE gui=NONE
+highlight StatusLineNC guibg=#aabbee guifg=#000000 ctermbg=15 ctermfg=0 cterm=inverse gui=inverse
+
+hi MatchParen ctermbg=8 ctermfg=2 cterm=NONE guibg=#808080 guifg=#66FF00 gui=NONE
+highlight CursorLine cterm=NONE gui=NONE
+highlight VertSplit ctermbg=8 ctermfg=8
+highlight ColorColumn ctermbg=0
+highlight CursorColumn ctermbg=0
+highlight SignColumn ctermbg=NONE guibg=NONE
+highlight link NERDTreeDir Constant
+
+highlight PmenuSel   ctermbg=13 ctermfg=00 guibg=#AA1BF2 guifg=#A9A9A9 gui=bold cterm=bold
+highlight Pmenu      ctermbg=00 ctermfg=15 guifg=#A9A9A9 guibg=#000000 gui=bold cterm=bold
+highlight PmenuSbar  ctermbg=07 guibg=#FFFFFF
+highlight PmenuThumb ctermbg=15 guibg=#A9A9A9
