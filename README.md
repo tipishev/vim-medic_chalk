@@ -11,7 +11,7 @@ All credit goes to him. Check him out. He has many great Vim plugins.
 
 ```vimL
 call plug#begin()
-  Plug 'ParamagicDev/vim-medic-chalk'
+  Plug 'ParamagicDev/vim-medic_chalk'
 call plug#end()
 
 colorscheme medic_chalk
