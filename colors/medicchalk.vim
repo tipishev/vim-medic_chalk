@@ -1,10 +1,10 @@
 " Vim color scheme
-" Name:         vividchalk.vim
-" Author:       Tim Pope <vimNOSPAM@tpope.info>
-" Version:      2.0
-" GetLatestVimScripts: 1891 1 :AutoInstall: vividchalk.vim
+" Name:         medicchalk.vim
+" Author:       Konnor Rogers <konnor7414@gmail.com>
+" Version:      1.0
+" GetLatestVimScripts: 1891 1 :AutoInstall: medicchalk.vim
 
-" Based on the Vibrank Ink theme for TextMate
+" Based on the VividChalk colorscheme made by Tpope which is based on Vibrant Ink
 " Distributable under the same terms as Vim itself (see :help license)
 
 if has("gui_running") && &background !=# 'dark'
@@ -15,7 +15,7 @@ if exists("syntax_on")
    syntax reset
 endif
 
-let colors_name = "vividchalk"
+let colors_name = "medicchalk"
 
 " First two functions adapted from inkpot.vim
 
