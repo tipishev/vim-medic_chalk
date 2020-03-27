@@ -37,7 +37,7 @@ Below is a sample for `~/.Xresources` taken from RomainL
     *.color15:    #808080
 
 
-![Screenshot](https://vimcolors.com/1206/medic_chalk/dark)
+[Screenshot from VimColors](https://vimcolors.com/1206/medic_chalk/dark)
 
 ## Differences from VividChalk
 
