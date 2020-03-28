@@ -22,7 +22,7 @@ Below is a sample for `~/.Xresources` taken from RomainL
     *.foreground: #FFFFFF
     *.background: #000000
     *.color0:     #000000
-    *.color8:     #333333
+    *.color8:     #111111
     *.color1:     #FFA500
     *.color9:     #FF6600
     *.color2:     #66FF00
