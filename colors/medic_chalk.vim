@@ -178,5 +178,7 @@ highlight PmenuSel   ctermbg=13 ctermfg=00 guibg=#AA1BF2  guifg=#000000 gui=bold
 highlight Pmenu      ctermbg=00 ctermfg=15 guibg=#000000  guifg=#808080 gui=bold cterm=bold
 highlight PmenuSbar  ctermbg=07 guibg=#FFFFFF
 highlight PmenuThumb ctermbg=15 guibg=#808080
+highlight WildMenu   ctermbg=13 ctermfg=00 guibg=#AA1BF2  guifg=#000000 gui=bold cterm=bold
+highlight Menu      ctermbg=00 ctermfg=15 guibg=#000000  guifg=#808080 gui=bold cterm=bold
 
 highlight link NERDTreeDir Constant
