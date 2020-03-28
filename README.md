@@ -15,6 +15,8 @@ call plug#end()
 colorscheme medic_chalk
 ```
 
+![Gif of colorscheme](https://gfycat.com/mistyscientificblackmamba)
+
 Below is a sample for `~/.Xresources` taken from RomainL
 
     *.foreground: #FFFFFF
@@ -35,9 +37,6 @@ Below is a sample for `~/.Xresources` taken from RomainL
     *.color14:    #AABBEE
     *.color7:     #FFFFFF
     *.color15:    #808080
-
-
-[Screenshot from VimColors](https://vimcolors.com/1206/medic_chalk/dark)
 
 ## Differences from VividChalk
 
