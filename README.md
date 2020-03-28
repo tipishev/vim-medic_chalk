@@ -15,7 +15,7 @@ call plug#end()
 colorscheme medic_chalk
 ```
 
-![Gif of colorscheme](https://gfycat.com/mistyscientificblackmamba)
+![Gif of colorscheme](https://thumbs.gfycat.com/MistyScientificBlackmamba-size_restricted.gif)
 
 Below is a sample for `~/.Xresources` taken from RomainL
 
