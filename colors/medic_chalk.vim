@@ -178,8 +178,10 @@ highlight CursorLine ctermbg=8 guibg=#111111 cterm=NONE gui=NONE
 
 " Autocompletion
 highlight Pmenu      ctermbg=00 ctermfg=15 guibg=#000000  guifg=#ffffff gui=NONE cterm=NONE
-highlight PmenuSel      ctermbg=5 ctermfg=7 guibg=#AA1BF2  guifg=#ffffff gui=NONE cterm=NONE
+highlight PmenuSel   ctermbg=05 ctermfg=07 guibg=#AA1BF2  guifg=#ffffff gui=NONE cterm=NONE
 highlight PmenuSbar  ctermbg=07 guibg=#FFFFFF
 highlight PmenuThumb ctermbg=15 guibg=#808080
+
+highlight WhiteSpace ctermfg=15 guifg=#808080
 
 highlight link NERDTreeDir Constant
