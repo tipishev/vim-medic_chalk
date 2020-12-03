@@ -165,7 +165,7 @@ call s:hifg("rubyMethod"     ,"#DDE93D","Yellow",77) " 191
 " My modifications
 
 highlight StatusLine   guibg=#aabbee guifg=#000000 ctermbg=14 ctermfg=0 cterm=NONE gui=NONE
-highlight StatusLineNC guibg=#aabbee guifg=#000000 ctermbg=14 ctermfg=0 cterm=inverse gui=inverse
+" highlight StatusLineNC guibg=#aabbee guifg=#000000 ctermbg=14 ctermfg=0 cterm=inverse gui=inverse
 
 highlight MatchParen ctermbg=8 ctermfg=2 cterm=NONE guibg=#111111 guifg=#66FF00 gui=NONE
 
